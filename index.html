@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <main>
+      <section class="game-container">
+        <h1 class="game-result">Roll the Dice</h1>
+        <p class="game-recap">Good Luck!</p>
+        <div class="dice-container">
+          <div class="die die-1">
+            <span class="die-result"></span>
+          </div>
+          <div class="die die-2">
+            <span class="die-result"></span>
+          </div>
+          <button class="roll-dice">Roll Dice</button>
+        </div>
+        <ul>
+          <li class="wins ratio"></li>
+          <li class="losses ratio"></li>
+        </ul>
+        <h2 class="start-time"></h2>
+      </section>
+      <section class="scores-container">
+        <button class="scores is-active">scores</button>
+        <ul class="score-list">
+        </ul>
+      </section>
+    </main>
+    <script type="text/javascript" src="scripts/moment.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
+  </body>
+</html>
