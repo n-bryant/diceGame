@@ -1,2 +1,4 @@
-# tiy-fee-week3-day3-diceGame
-https://n-bryant.github.io/tiy-fee-week3-day3-diceGame/
+# diceGame
+https://n-bryant.github.io/diceGame/
+
+* practice with JavaScript objects, CSS animations, and DOM manipulation.
